@@ -12,7 +12,7 @@
         </discriminator>
         <sift>
             <appender name="ROLLING" class="ch.qos.logback.core.rolling.RollingFileAppender">
-                <file>/home/whizhome/logs/${logfile}.log</file>
+                <file>/home/cschen1205/logs/${logfile}.log</file>
                 <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
                     <fileNamePattern>/home/cschen1205/logs/${logfile}-%d{yyyy-MM-dd}.%i.log.zip</fileNamePattern>
                     <timeBasedFileNamingAndTriggeringPolicy
